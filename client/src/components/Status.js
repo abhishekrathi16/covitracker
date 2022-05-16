@@ -13,7 +13,7 @@ const Status = () => {
   const [country, setCountry] = useState("-")
   const [totalConf, setTotalConf] = useState(0)
   const [totalDeaths, setTotalDeaths] = useState(0)
-  const [totalRecov, setTotalRecov] = useState(0)
+  // const [totalRecov, setTotalRecov] = useState(0)
   const [textValue, setTextValue] = useState("");
   const onTextChange = (e) => setTextValue(e.target.value) 
   const handleSubmit = () => {
@@ -33,7 +33,7 @@ const Status = () => {
         setCountry(value.Country)
         setTotalConf(value.TotalConfirmed)
         setTotalDeaths(value.TotalDeaths)
-        setTotalRecov(value.TotalRecovered)
+        // setTotalRecov(value.TotalRecovered)
       })
   }
   const rows = [
