@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Navbar {
+  background: rgb(48, 61, 247);
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer {
+  background: rgb(48, 61, 247);
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0.5rem 0rem;
+  height: 1.25rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+}
+
+.Realtime {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.heading{
+  text-align: center;
+}
+
+.country{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligned{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 100px;
+  /* justify-content: center; */
+}
+
+.input{
+  margin: 0px 100px;
+}
